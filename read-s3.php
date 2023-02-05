@@ -8,13 +8,13 @@ $s3 = new Aws\S3\S3Client([
     'region' => 'ap-southeast-1',
     'version' => 'latest',
     'credentials' => [
-        'key' => 'AKIAIFYWLIS6ACJHDRXQ',
-        'secret' => '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',
+        'key' => '',
+        'secret' => '',
     ],
 ]);
 
 // Set the name of the bucket and the file you want to read
-$bucket_name = 'student-id';
+$bucket_name = '';
 $file_name = 'id-card/temp_49292022_154940_.webp';
 
 // Use the S3 client to read the file and store it in a variable
