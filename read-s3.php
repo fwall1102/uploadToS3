@@ -15,7 +15,7 @@ $s3 = new Aws\S3\S3Client([
 
 // Set the name of the bucket and the file you want to read
 $bucket_name = '';
-$file_name = 'id-card/temp_49292022_154940_.webp';
+$file_name = '';
 
 // Use the S3 client to read the file and store it in a variable
 $result = $s3->getObject([
