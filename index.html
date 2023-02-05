@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Upload file to s3</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <style>
+    .button {
+      background-color: #4caf50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    .buttonSubmit {
+      background-color: #4caf44; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+  </style>
+
+  <body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <input class="button" type="file" name="img" /><br /><br />
+  
+        <input class="buttonSubmit" type="submit" value="Upload" />
+  
+    </form>
+  </body>
+</html>
